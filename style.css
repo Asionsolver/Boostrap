@@ -1,5 +1,6 @@
-.child {
-    border: 2px solid rgb(72, 255, 0);
+/* .child {
+    background: rgb(155, 196, 9);
+    border: 2px solid rgb(255, 0, 0);
     height: 100px;
     margin-bottom: 10px;
     font-size: 25px;
@@ -8,7 +9,10 @@
 }
 
 div {
-    background: aqua;
-    height: 100px;
-    margin-bottom: 10px;
+    background: rgb(121, 173, 173);
+    /* height: 100px;
+    margin-bottom: 10px; */
+
+
 }
+*/
