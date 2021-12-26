@@ -1,0 +1,14 @@
+.child {
+    border: 2px solid rgb(72, 255, 0);
+    height: 100px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    background: aqua;
+    height: 100px;
+    margin-bottom: 10px;
+}
