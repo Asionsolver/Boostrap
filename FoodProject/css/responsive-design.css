@@ -1,61 +1,100 @@
-@media(max-width:1024px) {}
+/* Responsive Design */
 
-@media(max-width:991px) {
-    /* Custom Classes */
-    .text-content {
-        width: 100%;
+@media (max-width:1024px) {
+
+    /* about section */
+    
+}
+
+@media (max-width: 991px) {
+
+    /*custom classes  */
+    .text-content{
+        width:100%;
     }
-    /* Navbar Brand */
-    .navigation-wrap.navbar-brand img {
-        height: 3.8125rem;
+    .main-btn{
+        padding: 0.625rem 1.575rem;
+
     }
-    .navigation-wrap {
+    .white-btn {
+        padding: 0.625rem 1.575rem;
+    }
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand img{
+        height:3.8125rem;
+    }
+    .navigation-wrap{
         text-align: center;
         background-color: var(--white-color);
     }
-    .navigation-wrap.nav-link {
-        font-size: 2rem;
+    .navigation-wrap .nav-link{
         line-height: 1.875rem;
     }
     /* Banner Design */
-    .top-banner {
-        padding: 9.375rem 0 9.375rem;
+    .top-banner{
+        padding:9.375rem 0 9.375rem;
     }
-    .story-section {
-        height: auto;
-        padding: 3rem 0;
+
+    /* carousel design */
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding:0;
     }
+     
 }
 
-@media(max-width:767px) {
-    /* Custom Class */
-    h1 {
-        font-size: 2.8rem;
+@media (max-width: 767px) {
+
+    /* custom css */
+    h1{
+        font-size:2.8rem;
     }
-    h2 {
-        font-size: 2rem;
-        line-height: 2.0672rem;
+    h2{
+        font-size:2rem;
+        line-height: 2.0625rem;
     }
-    /* Banner Design */
-    .top-banner {
-        padding: 10.375rem 0 9.375rem;
+     
+
+    /* top banner */
+    .top-banner{
+        padding:10.875rem 0 9.375rem;
     }
-    /* Food Type Section */
-    .food-type {
-        margin: 0 !important;
+    
+
+    /* story section */
+    .story-section{
+        height:auto;
+        padding:3rem 0;
     }
-    /* Story Section */
-    .story-section {
-        height: auto;
-        padding: 3rem 0;
+    
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:11rem 3.125rem;
     }
-    .heading-story {
-        font-size: 1.5rem;
-        line-height: 1.5;
+
+    /* newslettar */
+    .newsletter{
+        width:75%;
     }
-    .heading-story-text {
-        font-size: 0.8rem;
+    .newsletter .main-btn{
+        width:100%;
+        margin-top:1rem;
     }
+
+    /* footer link */
+    .footer .footer-link,
+    .footer a i{
+        padding:0 0.7rem;
+    }
+     
 }
 
-@media(max-width:1024px) {}
+@media (max-width:330px) {
+
+    /* carousel design */
+    .testimonial-section .carousel-item{
+        padding:13rem 3.125rem;
+    }
+     
+}
